@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 import sys
 
-gs = pd.read_csv('../input/movie-recommendation/genome-scores.csv')
-gt = pd.read_csv('../input/movie-recommendation/genome-tags.csv')
-mvs = pd.read_csv('../input/movie-recommendation/movies.csv')
+gs = pd.read_csv('../input/movie-recommendation/genome-scores.csv') # path of genome-scores.csv
+gt = pd.read_csv('../input/movie-recommendation/genome-tags.csv')   # path of genome-tags.csv
+mvs = pd.read_csv('../input/movie-recommendation/movies.csv')       # path of movies.csv
 
 # genre = np.array(mvs.sep[mvs.title == str(sys.argv[1])])[0]
 # mid = int(mvs.movieId[mvs.title == str(sys.argv[1])])
